@@ -1,4 +1,4 @@
-Your file show be index.html. The index.html is the first file the browser sees. you can either use index.html, default.html or home.html
+Your file show be index.html. The index.html is the first file the browser sees. you can either use index.html, default.html or  home.html
 
 your file structure show follow thus;
 
