@@ -10,3 +10,12 @@ Assets
 the shouldnt be space when naming anything be it picture or a file.
 
 
+Comments 1st August1. 
+1. Your signup border-radius is not the same as the image. You should have targeted top-left and bottom left for the blue and top right and bottom right for the green
+2. Your indentation is bad.
+3. Always include comments on your work.
+4. No link on the signup/signin
+5. All your styles should be external css
+6. The signup button is too close to the I am a member already. And the button is too small compare to thee original
+7. Compare the original design with urs there is a red background at the bottom of the page.
+8. Gosh there is no responsiveness atall.
