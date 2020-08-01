@@ -1,5 +1,7 @@
 body {
     background-color:brown ;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .main_grid {
     display: grid;
