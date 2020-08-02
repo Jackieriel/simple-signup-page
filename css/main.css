@@ -1,0 +1,62 @@
+/* Remove all margin and center content */
+
+* {
+  margin: auto;
+}
+
+/* Wrapper  */
+.container {
+  background-color: rgb(92, 28, 41);
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  width: 90%;
+}
+
+.item {
+  padding: 20px;
+  width: 100%;
+  margin: 7vh 0vh;
+  height: 500px;
+}
+
+.item-teal {
+  background-color: teal;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.item-blue {
+  background-color: rgb(3, 30, 71);
+  border-radius: 0px 5px 5px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.action-button {
+    position: fixed;
+    right: 85px;;
+}
+
+.signup {
+  background: rgb(5, 49, 114);
+  border: solid rgb(5, 49, 114) 1px;
+  padding: 8px;
+  border-radius: 20px 0px 0px 20px;
+  margin: -5px;
+}
+.login {
+  background: teal;
+  border: solid rgb(5, 49, 114) 1px;
+  padding: 8px 20px 8px 8px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+/* .image{
+    background: url("../images/rocket.png");
+} */
