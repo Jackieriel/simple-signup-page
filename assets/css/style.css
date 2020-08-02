@@ -9,6 +9,7 @@ body {
     grid-template-columns: 50% 50%;
     padding: 10px;
     margin-left: 30px;
+    
 }
 .side-1 {
     color: white;
@@ -36,7 +37,7 @@ body {
     top: 30px;
 }
 .sign_up_1 {
-    border-radius: 20px 5px 5px 20px;
+    border-radius: 20px 0px 0px 20px;
     color:whitesmoke;
     background: #23394d;
     padding: 10px;
@@ -44,7 +45,7 @@ body {
     height: 15px;
 }
 .sign_up_2 {
-    border-radius:5px 30px 30px 0px;
+    border-radius:0px 30px 30px 0px;
     color:white;
     background:rgb(132, 219, 180);
     padding:10px;
@@ -58,6 +59,17 @@ body {
     position: relative;
     top:130px;
     left:50px;
+}
+#su1 {
+    color:rgba(206, 198, 198, 0.808);
+}
+#suc {
+    font-style: italic;
+}
+#su2 {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(132, 219, 180);
 }
 div.form {
     display: block;
@@ -137,6 +149,31 @@ input[type=text], input[type=password], input[type=e-mail] {
     border: solid rgb(2, 2, 20);
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
+}
+#agree {
+    position: relative;
+    left:40px;
+    color:rgba(206, 198, 198, 0.808)
+}
+#terms {
+    color:white;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(132, 219, 180);
+}
+#but {
+    border: none;
+    border-radius: 40px;
+    background-color:  rgb(132, 219, 180);
+    color:white;
+    width:150px;
+    height: 40px;
+}
+#last  {
+    position: relative;
+    left: 15px;
+    color: rgba(206, 198, 198, 0.808);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(132, 219, 180);
 }
 @media only screen and (display-mode: fullscreen) {
     body {
