@@ -1,0 +1,154 @@
+/* Remove all margin and center content */
+
+* {
+  margin: auto;
+}
+
+/* Wrapper  */
+.container {
+  background-color: rgb(92, 28, 41);
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  width: 90%;
+}
+
+.item {
+  padding: 20px;
+  width: 100%;
+  margin: 7vh 0vh;
+  height: 500px;
+}
+
+.item-teal {
+  background-color: teal;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.item-blue {
+  background-color: #020214;
+  border-radius: 0px 5px 5px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.action-button {
+  position: fixed;
+  right: 85px;
+}
+
+.signup {
+  background: #23394d;
+  border: solid rgb(5, 49, 114) 1px;
+  padding: 6px 8px 6px 20px;
+  border-radius: 20px 0px 0px 20px;
+  margin: -5px;
+}
+.login {
+  background: teal;
+  border: solid rgb(5, 49, 114) 1px;
+  padding: 6px 20px 6px 8px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity img {
+  height: 250px;
+}
+
+.text-intro {
+  position: relative;
+  top: 90px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.image {
+  position: relative;
+  top: 160px;
+  opacity: 0.5;
+}
+
+.form-container {
+  color: #ffffff ;
+  padding: 0;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position:absolute;
+  top: 140px;
+
+}
+
+form input[type="password"],
+form input[type="email"],
+form input[type="text"] {
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  padding: 8px;
+  border:none;
+  border-bottom: solid gray 1px;
+}
+
+form input[type="submit"] {
+  background: teal;
+  border-radius: 15px;
+  border: 0px;
+  padding: 6px;
+  color: #ffffff;
+}
+
+
+.form-group{
+  display: block;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+label{
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: 5px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    
+  }
+
+  .item {
+    padding: 20px;
+    width: 100%;
+    margin: 0vh 0vh;
+    height: 500px;
+    
+  }
+  .action-button {
+    position: fixed;
+    right: 10px;
+    top: 20px;
+  }
+
+  .form-container {
+    top: 70px;
+}
+
+}
