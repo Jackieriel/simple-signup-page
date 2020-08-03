@@ -1,41 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Simple-Signup-Page</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Signup</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div class="main_grid">
-        <div class="side-1">
-            <p id="para">Plan your activities and control your progress online</p>
-            <img id="image_1" src="assets/images/rocket.png" alt="">
-        </div>
-        <div class="side-2">
-            <div id="top_right"> <span class="sign_up_1"> Sign Up</span><span class="sign_up_2">Sign Up</span></div>
-            <h3 class="above_form"><span id="su1">Sign In <span id="suc"> or </span></span><a href="" target="_blank"
-                    id="su2"> Sign Up</a></h3>
+    <div class="container">
+        <div class="row">
+            <div class="item item-teal">
+                <div class="activity">
+                    <p class="text-intro">Plan your activities and control your progress online</p>
+                    <div class="image">
+                        <img src="images/rocket.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
 
-            <form class="form" action="">
-                <label for="full name">FULL NAME</label><br><br>
-                <input id="form1" type="text" name="full name" placeholder="Enter your full name"><br><br>
-                <label for="password">PASSWORD</label><br><br>
-                <input id="form2" type="password" name="psw" placeholder="**********"><br><br>
-                <label for="e-mail">E-MAIL</label><br><br>
-                <input id="form3" type="e-mail" name="e-mail" placeholder="Your e-mail goes here"><br><br>
-                <label class="first_check">
-                    <input type="checkbox" checked="checked">
-                    <span class="cus_check"></span>
-                </label>
-                <label id="agree">I agree all statements in <a href="" target="_blank" id="terms">terms of
-                        service</a></label><br><br>
-                <button id="but">Sign Up</button>
-                <label> <a href="" target="_blank" id="last">I'm already member</a></label>
-            </form>
+            <div class="item item-blue">
+                <div class="action-button ">
+                    <a href="#" class="signup">SignUp</a>
+                    <a href="#" class="login">Login</a>
+                </div>
+
+                <div class="form-container">
+                    <div class="heading"><span id="SI_1">Sign In or </span><Span>Sign Up</Span></div><br>
+                    <div class="login-item">
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="Full Name">Full Name</label><br>
+                                <input type="text" placeholder="Enter your full Name" name="name"><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password</label><br><br>
+                                <input type="password" placeholder="*******" name="password"><br>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label><br>
+                                <input type="email" placeholder="Your e-mail goes here" name="email"><br>
+                            </div>
+                            <div class="form-group">
+                                <label class="first_check">
+                                    <input type="checkbox" checked="checked" name="checked" class="checkbox">
+                                    <span class="cus_check"></span>
+                                </label>
+
+                                <span id="agree">I agree all statements in </span><span><a href="" target="_blank"
+                                        id="terms">
+                                        terms of service</a></span>
+                            </div>
+                            <div class="form-group">
+                                <span></span><input type="submit" name="submit" id=""><span id="member"> I'm already
+                                    member</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-</body>
 
-</html>
+
+</body>
