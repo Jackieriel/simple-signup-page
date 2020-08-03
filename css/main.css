@@ -163,7 +163,7 @@ form input[type="text"] {
     left: 40px;
     color:white;
     text-decoration: none;
-    border-bottom: 1px solid rgb(144, 170, 157);
+    border-bottom: 1px solid rgb(132, 219, 180);
 }
 form input[type="submit"] {
   border: none;
@@ -171,7 +171,7 @@ form input[type="submit"] {
     background-color:  rgb(132, 219, 180);
     color:white;
     width:90px;
-    height: 40px;
+    height: 35px;
     position: relative;
     top: 10px;
 
@@ -182,7 +182,7 @@ form input[type="submit"] {
   top: 10px;
   color: rgba(206, 198, 198, 0.808);
   text-decoration: none;
-  border-bottom: 1px solid rgb(144, 170, 157);
+  border-bottom: 1px solid rgb(132, 219, 180);
 }
 
 
