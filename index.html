@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,27 +27,32 @@
                 </div>
 
                 <div class="form-container">
-                    <div class="heading"><span>Sign In or </span><Span>Sign Up</Span></div>
+                    <div class="heading"><span id="SI_1">Sign In or </span><Span>Sign Up</Span></div><br>
                     <div class="login-item">
                         <form action="" method="POST">
                             <div class="form-group">
                                 <label for="Full Name">Full Name</label><br>
-                                <input type="text" placeholder="Enter your full Name" name="name">
+                                <input type="text" placeholder="Enter your full Name" name="name"><br>
                             </div>
                             <div class="form-group">
-                                <label for="Password">Password</label><br>
-                                <input type="password" placeholder="*******" name="password">
+                                <label for="Password">Password</label><br><br>
+                                <input type="password" placeholder="*******" name="password"><br>
                             </div>
                             <div class="form-group">
                                 <label for="email">E-mail</label><br>
-                                <input type="email" placeholder="Your e-mail goes here" name="email">
+                                <input type="email" placeholder="Your e-mail goes here" name="email"><br>
                             </div>
                             <div class="form-group">
-                                    <input type="checkbox" checked="checked" name="checked" class="checkbox"> 
-                                    <span>I agree all statements in </span><span>terms of service</span>
+                                <label class="first_check">
+                                <input type="checkbox" checked="checked" name="checked" class="checkbox">
+                                <span class="cus_check"></span>
+                                </label>
+
+                                <span id="agree">I agree all statements in </span><span><a href="" target="_blank" id="terms">
+                                        terms of service</a></span>
                             </div>
                             <div class="form-group">
-                                <span></span><input type="submit" name="submit" id=""><span> I'm already member</span>
+                                <span></span><input type="submit" name="submit" id=""><span id="member"> I'm already member</span>
                             </div>
                         </form>
                     </div>
