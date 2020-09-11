@@ -6,7 +6,7 @@
 
 /* Wrapper  */
 .container {
-  background-color: rgb(92, 28, 41);
+  background-color: rgb(237, 134, 146);
   height: 100vh;
 }
 
@@ -24,12 +24,12 @@
 }
 
 .item-teal {
-  background-color:rgb(132, 219, 180);
+  background-color:rgb(109, 224, 202);
   border-radius: 5px 0px 0px 5px;
 }
 
 .item-blue {
-  background-color: rgb(2, 2, 20);
+  background-color: rgb(53, 71, 94);
   border-radius: 0px 5px 5px 0px;
 }
 
@@ -44,14 +44,14 @@ a {
 }
 
 .signup {
-  background: #23394d;
+  background: rgb(53, 71, 94);
   border: none;
   padding: 6px 8px 6px 20px;
   border-radius: 20px 0px 0px 20px;
   margin: -5px;
 }
 .login {
-  background: rgb(132, 219, 180);
+  background: rgb(109, 224, 202);
   border: none;
   padding: 6px 20px 6px 8px;
   border-radius: 0px 20px 20px 0px;
@@ -133,7 +133,7 @@ form input[type="text"] {
   background-color: #eee;
 }
 .first_check input:checked ~ .cus_check {
-  background-color: rgb(132, 219, 180);
+  background-color: rgb(109, 224, 202);
 }
 .cus_check:after {
   content: "";
@@ -148,7 +148,7 @@ form input[type="text"] {
   top: 5px;
   width: 5px;
   height: 10px;
-  border: solid rgb(2, 2, 20);
+  border: solid rgb(53, 71, 94);
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
 }
@@ -163,12 +163,12 @@ form input[type="text"] {
     left: 40px;
     color:white;
     text-decoration: none;
-    border-bottom: 1px solid rgb(132, 219, 180);
+    border-bottom: 1px solid rgb(109, 224, 202);
 }
 form input[type="submit"] {
   border: none;
     border-radius: 40px;
-    background-color:  rgb(132, 219, 180);
+    background-color:  rgb(109, 224, 202);
     color:white;
     width:90px;
     height: 35px;
@@ -182,7 +182,7 @@ form input[type="submit"] {
   top: 10px;
   color: rgba(206, 198, 198, 0.808);
   text-decoration: none;
-  border-bottom: 1px solid rgb(132, 219, 180);
+  border-bottom: 1px solid rgb(109, 224, 202);
 }
 
 
