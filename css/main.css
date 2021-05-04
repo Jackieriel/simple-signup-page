@@ -203,7 +203,7 @@ label{
   /* For mobile phones: */
   .row {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     
   }
