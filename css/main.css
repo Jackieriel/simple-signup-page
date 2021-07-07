@@ -6,7 +6,7 @@
 
 /* Wrapper  */
 .container {
-  background-color: rgb(92, 28, 41);
+  background-color: rgb(237, 134, 146);
   height: 100vh;
 }
 
@@ -24,12 +24,12 @@
 }
 
 .item-teal {
-  background-color: teal;
+  background-color:rgb(109, 224, 202);
   border-radius: 5px 0px 0px 5px;
 }
 
 .item-blue {
-  background-color: #020214;
+  background-color: rgb(53, 71, 94);
   border-radius: 0px 5px 5px 0px;
 }
 
@@ -44,15 +44,15 @@ a {
 }
 
 .signup {
-  background: #23394d;
-  border: solid rgb(5, 49, 114) 1px;
+  background: rgb(53, 71, 94);
+  border: none;
   padding: 6px 8px 6px 20px;
   border-radius: 20px 0px 0px 20px;
   margin: -5px;
 }
 .login {
-  background: teal;
-  border: solid rgb(5, 49, 114) 1px;
+  background: rgb(109, 224, 202);
+  border: none;
   padding: 6px 20px 6px 8px;
   border-radius: 0px 20px 20px 0px;
 }
@@ -89,9 +89,18 @@ a {
   flex-direction: column;
   position:absolute;
   top: 140px;
+  position: relative;
+  left: -105px;
 
 }
-
+.heading {
+  position: relative;
+  left: -60px;
+  font-size: 20px;
+}
+#SI_1 {
+  color: rgba(206, 198, 198, 0.808);
+}
 form input[type="password"],
 form input[type="email"],
 form input[type="text"] {
@@ -102,13 +111,78 @@ form input[type="text"] {
   border:none;
   border-bottom: solid gray 1px;
 }
+.first_check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
 
+}
+.first_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.cus_check {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.first_check input:checked ~ .cus_check {
+  background-color: rgb(109, 224, 202);
+}
+.cus_check:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.first_check input:checked ~ .cus_check:after {
+  display: block;
+}
+.first_check .cus_check:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid rgb(53, 71, 94);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+}
+#agree {
+  position: relative;
+  left:40px;
+  color:rgba(206, 198, 198, 0.808)
+}
+
+  #terms {
+    position: relative;
+    left: 40px;
+    color:white;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(109, 224, 202);
+}
 form input[type="submit"] {
-  background: teal;
-  border-radius: 15px;
-  border: 0px;
-  padding: 6px;
-  color: #ffffff;
+  border: none;
+    border-radius: 40px;
+    background-color:  rgb(109, 224, 202);
+    color:white;
+    width:90px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+
+}
+#member {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  color: rgba(206, 198, 198, 0.808);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(109, 224, 202);
 }
 
 
@@ -129,7 +203,7 @@ label{
   /* For mobile phones: */
   .row {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
     
   }
@@ -143,12 +217,15 @@ label{
   }
   .action-button {
     position: fixed;
-    right: 10px;
+    right: 45px;
     top: 20px;
   }
 
   .form-container {
-    top: 70px;
+    bottom: 50px;
+    width: 70%;
+    font-size: 15px;
+    left: -25px;
 }
 
 }
